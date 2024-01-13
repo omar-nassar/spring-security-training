@@ -1,6 +1,6 @@
 package io.getarrays.api.service.impl;
 
-import io.getarrays.api.model.Employee;
+import io.getarrays.api.entity.Employee;
 import io.getarrays.api.repository.InMemoryEmployeeRepository;
 import io.getarrays.api.service.EmployeeService;
 import lombok.RequiredArgsConstructor;

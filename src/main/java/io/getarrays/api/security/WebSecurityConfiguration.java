@@ -15,19 +15,17 @@ import static org.springframework.security.config.http.SessionCreationPolicy.STA
 @Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor
-//@EnableMethodSecurity
+@EnableMethodSecurity
 public class WebSecurityConfiguration {
     private final AccountAuthenticationProvider authenticationProvider;
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        http
+        http.csrf().disable()
                 .authorizeHttpRequests()
-                .requestMatchers(POST, "/api/accounts/**", "/api/persons/**")
-
+                .requestMatchers(POST, "/api/accounts/**")
                 .permitAll()
                 .requestMatchers("/**")
-
                 .authenticated()
                 .anyRequest()
                 .hasAnyRole("USER", "ADMIN")

@@ -1,7 +1,7 @@
 package io.getarrays.api.service.impl;
 
-import io.getarrays.api.model.Account;
-import io.getarrays.api.model.Role;
+import io.getarrays.api.entity.Account;
+import io.getarrays.api.entity.Role;
 import io.getarrays.api.repository.AccountRepository;
 import io.getarrays.api.repository.RoleRepository;
 import io.getarrays.api.service.AccountService;

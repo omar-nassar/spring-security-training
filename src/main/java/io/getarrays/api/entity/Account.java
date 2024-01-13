@@ -1,4 +1,4 @@
-package io.getarrays.api.model;
+package io.getarrays.api.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -11,7 +11,6 @@ import jakarta.validation.constraints.NotNull;
 import java.util.Set;
 
 import static com.fasterxml.jackson.annotation.JsonProperty.Access.WRITE_ONLY;
-import static jakarta.persistence.CascadeType.ALL;
 import static jakarta.persistence.CascadeType.MERGE;
 import static jakarta.persistence.FetchType.EAGER;
 

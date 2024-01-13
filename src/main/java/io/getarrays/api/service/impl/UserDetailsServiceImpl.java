@@ -1,6 +1,6 @@
 package io.getarrays.api.service.impl;
 
-import io.getarrays.api.model.Account;
+import io.getarrays.api.entity.Account;
 import io.getarrays.api.service.AccountService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;

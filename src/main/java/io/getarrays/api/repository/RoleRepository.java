@@ -1,6 +1,6 @@
 package io.getarrays.api.repository;
 
-import io.getarrays.api.model.Role;
+import io.getarrays.api.entity.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

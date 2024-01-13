@@ -1,6 +1,6 @@
-package io.getarrays.api.resource;
+package io.getarrays.api.controller;
 
-import io.getarrays.api.model.Employee;
+import io.getarrays.api.entity.Employee;
 import io.getarrays.api.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;

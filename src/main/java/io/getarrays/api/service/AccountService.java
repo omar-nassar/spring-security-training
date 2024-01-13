@@ -1,6 +1,6 @@
 package io.getarrays.api.service;
 
-import io.getarrays.api.model.Account;
+import io.getarrays.api.entity.Account;
 
 import java.util.List;
 

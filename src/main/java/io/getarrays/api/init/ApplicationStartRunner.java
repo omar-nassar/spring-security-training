@@ -1,18 +1,15 @@
 package io.getarrays.api.init;
 
-import io.getarrays.api.model.Account;
-import io.getarrays.api.model.Role;
+import io.getarrays.api.entity.Account;
+import io.getarrays.api.entity.Role;
 import io.getarrays.api.repository.AccountRepository;
 import io.getarrays.api.repository.RoleRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 import java.util.Set;
-
-import static java.util.Arrays.asList;
 
 @Component
 @RequiredArgsConstructor
